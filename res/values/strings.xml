@@ -3,5 +3,14 @@
 
     <string name="hello">Hello World, ContentProviderExternalUserExampleActivity!</string>
     <string name="app_name">ContentProviderExternalUserExample</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="insert">Insert</string>
+    <string name="update">Update</string>
+    <string name="query">Query</string>
+    <string name="previous">Previous</string>
+    <string name="dash"> - </string>
+    <string name="next">Next</string>
+    <string name="delete">Delete</string>
 
 </resources>

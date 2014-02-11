@@ -64,6 +64,10 @@ public class ContentProviderExternal extends Activity {
 
                 mNewUri = getContentResolver().insert(
                         Uri.parse("content://co.martinbrown.provider/namestable"), mNewValues);
+                
+                if (mNewUri == null) {
+                	//--- No row inserted ---
+                }
 
                 clear();
 
@@ -93,6 +97,10 @@ public class ContentProviderExternal extends Activity {
                         mSelectionClause,
                         mSelectionArgs
                         );
+                
+                if (mRowsUpdated == 0) {
+                	//--- No rows updated ---
+                }
 
                 clear();
 
@@ -115,6 +123,10 @@ public class ContentProviderExternal extends Activity {
                         mSelectionClause,
                         mSelectionArgs
                         );
+                
+                if (mRowsDeleted == 0) {
+                	//--- No rows deleted ---
+                }
 
                 clear();
 
